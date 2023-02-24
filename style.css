@@ -1,0 +1,143 @@
+.lw-body-bg {
+    background-color: white;
+    border-color: white;
+    color: #262626;
+}
+
+nav {
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 5%);
+    display: flex;
+    overflow: visible;
+    z-index: 11;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.project .card {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 5%);
+    background-color: white;
+}
+
+.project-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-body .card-text {
+    text-align: center;
+}
+
+.test-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.test-img-div {
+    width: 49%;
+    padding: 20px;
+}
+
+.test-img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 5%);
+    background-color: white;
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info img {
+    width: 90%;
+}
+
+.dataset .card {
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 5%);
+    background-color: white;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 5%);
+    background-color: white;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .test-img-div {
+        width: 100%;
+    }
+
+    iframe {
+        width: 250px;
+    }
+}
+
+section {
+    padding-top: 60px;
+}

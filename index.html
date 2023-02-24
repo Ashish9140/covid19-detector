@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IIT Patna Covid19 Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg lw-body-bg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Covid19 Detector</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#dataset">Dataset</a>
+                        <a class="nav-link" href="#publication">Publication</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="home">
+                <div class="card homehead">
+                    <div class="card-body">
+                        <h5 class="card-title">Indian Institute of Technology, Patna.</h5>
+                        <p class="card-text">Covid19 Detection from chest Xray using Artificial Inteligence.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img1.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <div class="card-body project-body">
+                        <h5 class="card-title">Covid19 Detector</h5>
+                        <p style="text-align: center;">COVID-19 Infection Map Generation and Diagnosis from Chest X-Ray
+                            Images</p>
+                        <p class="card-text"><b>Covid19 Detector</b> developed by researchers in <b>IIT Patna</b>
+                            early
+                            detection and infection map generation of <b>Covid-19</b> . The best deep AI model trained
+                            over the
+                            largest X-ray dataset with 119,316 images is now available for online trials below. This is
+                            a
+                            free application with no commercial strings attached. Simply <b>Upload</b> one or more X-ray
+                            images
+                            and
+                            you will see the infection maps generated in few seconds like the examples shown below.</p>
+                    </div>
+                    <div class="test-img">
+                        <div class="test-img-div">
+                            <img src="test1.png">
+                        </div>
+                        <div class="test-img-div">
+                            <img src="test2.png">
+                        </div>
+                    </div>
+                    <div class="card-body project-body">
+                        <p class="card-text"> <b>Covid19 Detector</b> allows the users to monitor the progression of
+                            infection
+                            with
+                            time. Users can upload multiple X-Rays of the same patient at different time intervals to
+                            observe the growth or decline in infection area, like the examples shown above. Press the
+                            <b>Upload</b> button below to upload X-Ray(s) for real-time diagnosis.
+                        </p>
+                    </div>
+                    <div class="upload-file">
+                        <div class="file btn btn-lg">
+                            Upload X-RAY(s)
+                            <input type="file" name="file" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <img src="ab.png" class="img-fluid" alt="...">
+            </div>
+        </section>
+        <section id="dataset">
+            <div class="dataset">
+                <div class="card">
+                    <div class="card-body project-body">
+                        <h5 class="card-title">Dataset</h5>
+                        <p class="card-text">You can download Covid19 Detector benchmark dataset from this <a
+                                href="#">Link</a>. There
+                            are
+                            4603 COVID-19 images and the dataset includes ground-truth segmentation masks of the
+                            COVID-19 images used for infection map generation application. Total number of chest X-ray
+                            images is 119,316.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="publication">
+            <div class="publication">
+                <div class="card">
+                    <div class="card-body project-body">
+                        <h5 class="card-title">Publication</h5>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        [P1] A. Degerli, M. Ahishali, M. Yamac, S. Kiranyaz, M. EH Chowdhury, K. Hameed,
+                                        T. Hamid, R. Mazhar, and M. Gabbouj. M. Gabbouj, “Advance Warning Methodologies
+                                        for
+                                        COVID-19.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Computer-aided diagnosis has become a necessity for
+                                        accurate and immediate coronavirus disease 2019 (COVID19) detection to aid
+                                        treatment and prevent the spread of the virus. Compared to other diagnosis
+                                        methodologies, chest X-ray (CXR) imaging is an advantageous tool since it is
+                                        fast, low-cost, and easily accessible. Thus, CXR has a great potential not only
+                                        to help diagnose COVID-19 but also to track the progression of the disease.
+                                        Numerous studies have proposed to use Deep Learning techniques for COVID-19
+                                        diagnosis. However, they have used very limited CXR image repositories for
+                                        evaluation with a small number, a few hundreds, of COVID-19 samples. Moreover,
+                                        these methods can neither localize nor grade the severity of COVID-19 infection.
+                                        For this purpose, recent studies proposed to explore the activation maps of deep
+                                        networks. However, they remain inaccurate for localizing the actual infestation
+                                        making them unreliable for clinical use. This study proposes a novel method for
+                                        the joint localization, severity grading, and detection of COVID-19 from CXR
+                                        images by generating the so-called infection maps that can accurately localize
+                                        and grade the severity of COVID-19 infection. To accomplish this, we have
+                                        compiled the largest COVID-19 dataset up to date with 2951 COVID-19 CXR images,
+                                        where the annotation of the ground-truth segmentation masks is performed on CXRs
+                                        by a novel collaborative expert human-machine approach. Furthermore, we publicly
+                                        release the first CXR dataset with the ground-truth segmentation masks of the
+                                        COVID-19 infected regions. A detailed set of experiments show that
+                                        state-of-the-art segmentation networks can learn to localize COVID-19 infection
+                                        with an F1-score of 85.81%, that is significantly superior to the activation
+                                        maps created by the previous methods. Finally, the proposed approach achieved a
+                                        COVID-19 detection performance with 98.37% sensitivity and 99.16% specificity.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        [P2] M.Yamac, M. Ahishali, A. Degerli, S. Kiranyaz, M. EH Chowdhury, M. Gabbouj,
+                                        “Convolutional Sparse Support Estimator Based Covid-19.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Coronavirus disease (Covid-19) has been the main agenda
+                                        of the whole world since it came in sight in December 2019. It has already
+                                        caused thousands of causalities and infected several millions worldwide. Any
+                                        technological tool that can be provided to healthcare practitioners to save
+                                        time, effort, and possibly lives has crucial importance. The main tools
+                                        practitioners currently use to diagnose Covid-19 are Reverse
+                                        Transcription-Polymerase Chain reaction (RT-PCR) and Computed Tomography (CT),
+                                        which require significant time, resources and acknowledged experts. X-ray
+                                        imaging is a common and easily accessible tool that has great potential for
+                                        Covid-19 diagnosis. In this study, we propose a novel approach for Covid-19
+                                        recognition from chest X-ray images. Despite the importance of the problem,
+                                        recent studies in this domain produced not so satisfactory results due to the
+                                        limited datasets available for training. Recall that Deep Learning techniques
+                                        can generally provide state-of-the-art performance in many classification tasks
+                                        when trained properly over large datasets, such data scarcity can be a crucial
+                                        obstacle when using them for Covid-19 detection. Alternative approaches such as
+                                        representation-based classification (collaborative or sparse representation)
+                                        might provide satisfactory performance with limited size datasets, but they
+                                        generally fall short in performance or speed compared to Machine Learning
+                                        methods. To address this deficiency, Convolution Support Estimation Network
+                                        (CSEN) has recently been proposed as a bridge between model-based and Deep
+                                        Learning approaches by providing a non-iterative real-time mapping from query
+                                        sample to ideally sparse representation coefficient' support, which is critical
+                                        information for class decision in representation based techniques.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        [P3] M. Ahishali, A. Degerli, M. Yamac, S. Kiranyaz, M. EH Chowdhury, K. Hameed,
+                                        T. Hamid, R. Mazhar, and M. Gabbouj, “Advance Warning Methodologies for
+                                        COVID-19.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Coronavirus disease 2019 (COVID-19) has rapidly become a
+                                        global health concern after its first known detection in December 2019. As a
+                                        result, accurate and reliable advance warning system for the early diagnosis of
+                                        COVID-19 has now become a priority. The detection of COVID-19 in early stages is
+                                        not a straightforward task from chest X-ray images according to expert medical
+                                        doctors because the traces of the infection are visible only when the disease
+                                        has progressed to a moderate or severe stage. In this study, our first aim is to
+                                        evaluate the ability of recent state-of-the-art Machine Learning techniques for
+                                        the early detection of COVID-19 from chest X-ray images. Both compact
+                                        classifiers and deep learning approaches are considered in this study.
+                                        Furthermore, we propose a recent compact classifier, Convolutional Support
+                                        Estimator Network (CSEN) approach for this purpose since it is well-suited for a
+                                        scarce-data classification task. Finally, this study introduces a new benchmark
+                                        dataset called Early-Covid19 Detector, which consists of 175 early-stage
+                                        COVID-19
+                                        Pneumonia samples (very limited or no infection signs) labelled by the medical
+                                        doctors and 1579 samples for control (normal) class. A detailed set of
+                                        experiments shows that the CSEN achieves the top (over 98.5%) sensitivity with
+                                        over 96% specificity. Moreover, transfer learning over the deep CheXNet
+                                        fine-tuned with the augmented data produces the leading performance among other
+                                        deep networks with 97.14% sensitivity and 99.49% specificity.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <div class="card">
+                    <h5 class="card-title" style="text-align: center;">Contact</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <b>Covid19 Detector</b> developed by <br>
+                            researchers in <b>IIT Patna</b> <br>
+                            Indian Institute of Technology Patna, <br>
+                            Bihta, Patna -801106 (Bihar) <br>
+                            website : <a href="https://www.iitp.ac.in/">https://www.iitp.ac.in</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14399.668915597977!2d84.84319507971534!3d25.541133889796164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed577f6954a4ab%3A0x6ce8f1b9fc2aa02a!2sIndian%20Institute%20of%20Technology%2C%20Patna%20(IIT%20Patna)!5e0!3m2!1sen!2sin!4v1677215135440!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy;IIT Patna, All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
